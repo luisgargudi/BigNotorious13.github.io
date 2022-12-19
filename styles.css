@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*
+{
+ 
+    background-color: rgb(25, 25, 25);
+}
+.title 
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.title h1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: white;
+}
+
+.visuals-div
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.visuals-div h2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.visuals-div .ESP details
+{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.visuals-div .ESP details summary:hover
+{
+    cursor: pointer;
+    color: rgb(0, 150, 255);
+}
+.content p
+{
+    padding: 0 5px;
+    margin: 0 10%;
+}
