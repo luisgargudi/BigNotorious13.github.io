@@ -47,3 +47,31 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+  
+  .features-cont
+  {
+   width: 91%;
+   margin: auto;
+   border: 1px solid red;
+  }
+  .features-cont details summary
+  {
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+  }
+  .features-cont details p
+  {
+    color: white;
+    padding: 0 20px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .features-cont details details
+  {
+    color: white;
+    padding: 0 20px;
+    margin: 0;
+    text-align: left;
+  }
